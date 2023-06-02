@@ -18,10 +18,10 @@ class SensorDataReader(Node):
         range_max = max(msg.ranges)
         range_avg = sum(msg.ranges) / len(msg.ranges)
 
-        print('Range ahead: ' + str(range_ahead))
-        print('Minimum range: ' + str(range_min))
-        print('Maximum range: ' + str(range_max))
-        print('Average range: ' + str(range_avg))
+        print('Táv előre: ' + str(range_ahead))
+        print('Minimum táv: ' + str(range_min))
+        print('Maximum táv: ' + str(range_max))
+        print('Átlag táv: ' + str(range_avg))
 
 def main(args=None):
     rclpy.init(args=args)
