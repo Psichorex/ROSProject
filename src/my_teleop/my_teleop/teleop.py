@@ -11,13 +11,13 @@ class TeleopPublisher(Node):
         self.twist = Twist()
         self._setup_keyboard_listener()
 
-        # initial speeds
+        # kezdeti sebesség
         self.linear_speed = 0.0
         self.angular_speed = 0.0
 
-        # speed adjustments
-        self.linear_increment = 0.05
-        self.angular_increment = 0.1
+        # sebesség
+        self.linear_increment = 0.01
+        self.angular_increment = 0.2
 
     def _setup_keyboard_listener(self):
         self.listener = keyboard.Listener(
@@ -27,13 +27,13 @@ class TeleopPublisher(Node):
 
     def _on_keyboard_press(self, key):
         if key == keyboard.KeyCode.from_char('w'):
-            self.linear_speed += self.linear_increment  # move forward
+            self.linear_speed += self.linear_increment
         elif key == keyboard.KeyCode.from_char('s'):
-            self.linear_speed -= self.linear_increment  # move backward
+            self.linear_speed -= self.linear_increment
         elif key == keyboard.KeyCode.from_char('a'):
-            self.angular_speed += self.angular_increment  # turn left
+            self.angular_speed += self.angular_increment
         elif key == keyboard.KeyCode.from_char('d'):
-            self.angular_speed -= self.angular_increment  # turn right
+            self.angular_speed -= self.angular_increment
         else:
             return
 

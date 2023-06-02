@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/ros_user/ros2_ws/build/sensordatareader
+prepend-non-duplicate;PYTHONPATH;/home/ros_user/ros_repository/ROSProject/build/sensordatareader

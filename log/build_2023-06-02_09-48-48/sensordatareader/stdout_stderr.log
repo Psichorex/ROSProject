@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing sensordatareader.egg-info/PKG-INFO
+writing dependency_links to sensordatareader.egg-info/dependency_links.txt
+writing entry points to sensordatareader.egg-info/entry_points.txt
+writing requirements to sensordatareader.egg-info/requires.txt
+writing top-level names to sensordatareader.egg-info/top_level.txt
+reading manifest file 'sensordatareader.egg-info/SOURCES.txt'
+writing manifest file 'sensordatareader.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_user/ros_repository/ROSProject/install/sensordatareader/lib/python3.8/site-packages/sensordatareader.egg-link (link to .)
+Installing sensordatareader script to /home/ros_user/ros_repository/ROSProject/install/sensordatareader/lib/sensordatareader
+
+Installed /home/ros_user/ros_repository/ROSProject/build/sensordatareader
+running install_data
