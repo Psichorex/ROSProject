@@ -8,7 +8,7 @@ class SensorDataReader(Node):
         self.subscription = self.create_subscription(
             LaserScan,
             '/scan',
-            self.lidar_callback,
+            self.messenger_callback,
             10)
         self.subscription
 
