@@ -1,0 +1,19 @@
+[0.703s] Invoking command in '/home/ros_user/ros2_ws/build/my_teleop': PYTHONPATH=/home/ros_user/ros2_ws/build/my_teleop/prefix_override:/home/ros_user/ros2_ws/install/my_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/my_teleop/build --no-deps install_data
+[0.851s] running develop
+[0.909s] running egg_info
+[0.909s] writing my_teleop.egg-info/PKG-INFO
+[0.909s] writing dependency_links to my_teleop.egg-info/dependency_links.txt
+[0.909s] writing entry points to my_teleop.egg-info/entry_points.txt
+[0.909s] writing requirements to my_teleop.egg-info/requires.txt
+[0.910s] writing top-level names to my_teleop.egg-info/top_level.txt
+[0.926s] reading manifest file 'my_teleop.egg-info/SOURCES.txt'
+[0.927s] writing manifest file 'my_teleop.egg-info/SOURCES.txt'
+[0.946s] running build_ext
+[0.946s] Creating /home/ros_user/ros2_ws/install/my_teleop/lib/python3.8/site-packages/my-teleop.egg-link (link to .)
+[0.946s] Installing teleop script to /home/ros_user/ros2_ws/install/my_teleop/lib/my_teleop
+[0.946s] 
+[0.946s] Installed /home/ros_user/ros2_ws/build/my_teleop
+[0.946s] running install_data
+[0.946s] copying resource/my_teleop -> /home/ros_user/ros2_ws/install/my_teleop/share/ament_index/resource_index/packages
+[0.946s] copying package.xml -> /home/ros_user/ros2_ws/install/my_teleop/share/my_teleop
+[0.962s] Invoked command in '/home/ros_user/ros2_ws/build/my_teleop' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/my_teleop/prefix_override:/home/ros_user/ros2_ws/install/my_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/my_teleop/build --no-deps install_data

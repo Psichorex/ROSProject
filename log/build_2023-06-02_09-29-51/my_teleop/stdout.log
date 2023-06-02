@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_teleop.egg-info/PKG-INFO
+writing dependency_links to my_teleop.egg-info/dependency_links.txt
+writing entry points to my_teleop.egg-info/entry_points.txt
+writing requirements to my_teleop.egg-info/requires.txt
+writing top-level names to my_teleop.egg-info/top_level.txt
+reading manifest file 'my_teleop.egg-info/SOURCES.txt'
+writing manifest file 'my_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_user/ros2_ws/install/my_teleop/lib/python3.8/site-packages/my-teleop.egg-link (link to .)
+Installing teleop script to /home/ros_user/ros2_ws/install/my_teleop/lib/my_teleop
+
+Installed /home/ros_user/ros2_ws/build/my_teleop
+running install_data
+copying resource/my_teleop -> /home/ros_user/ros2_ws/install/my_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros_user/ros2_ws/install/my_teleop/share/my_teleop

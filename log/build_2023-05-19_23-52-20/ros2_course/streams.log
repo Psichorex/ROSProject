@@ -1,0 +1,24 @@
+[0.586s] Invoking command in '/home/ros_user/ros2_ws/build/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build
+[0.728s] running develop
+[0.802s] Invoked command in '/home/ros_user/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build
+[0.802s] Invoking command in '/home/ros_user/ros2_ws/src/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/ros_user/ros2_ws/build/ros2_course/build install --record /home/ros_user/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
+[0.899s] running egg_info
+[0.900s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[0.900s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[0.915s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.915s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.915s] running build
+[0.915s] running build_py
+[0.915s] running install
+[0.916s] running install_lib
+[0.916s] running install_data
+[0.916s] running install_egg_info
+[0.917s] removing '/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course-0.0.0-py3.8.egg-info' (and everything under it)
+[0.917s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course-0.0.0-py3.8.egg-info
+[0.917s] running install_scripts
+[0.925s] Installing hello script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[0.926s] writing list of installed files to '/home/ros_user/ros2_ws/build/ros2_course/install.log'
+[0.938s] Invoked command in '/home/ros_user/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/ros_user/ros2_ws/build/ros2_course/build install --record /home/ros_user/ros2_ws/build/ros2_course/install.log --single-version-externally-managed

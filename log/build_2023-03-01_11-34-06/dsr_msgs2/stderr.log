@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+    sys.exit(main())
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    return generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+    generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+    expand_template(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 3, in <module>
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 149, in <module>
+    from . import polynomial
+  File "/usr/lib/python3/dist-packages/numpy/polynomial/__init__.py", line 18, in <module>
+    from .polynomial import Polynomial
+  File "/usr/lib/python3/dist-packages/numpy/polynomial/polynomial.py", line 73, in <module>
+    from ._polybase import ABCPolyBase
+  File "<frozen importlib._bootstrap>", line 988, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 149, in __enter__
+  File "<frozen importlib._bootstrap>", line 90, in acquire
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x7fe80b91d820>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+make[2]: *** [dsr_msgs2__py/CMakeFiles/dsr_msgs2__py.dir/build.make:454: rosidl_generator_py/dsr_msgs2/_dsr_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:553: dsr_msgs2__py/CMakeFiles/dsr_msgs2__py.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

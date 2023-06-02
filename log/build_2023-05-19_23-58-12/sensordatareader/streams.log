@@ -1,0 +1,21 @@
+[0.584s] Invoking command in '/home/ros_user/ros2_ws/src/sensordatareader': PYTHONPATH=/home/ros_user/ros2_ws/build/sensordatareader/prefix_override:/home/ros_user/ros2_ws/install/sensordatareader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensordatareader build --build-base /home/ros_user/ros2_ws/build/sensordatareader/build install --record /home/ros_user/ros2_ws/build/sensordatareader/install.log --install-scripts $base/lib/sensordatareader --single-version-externally-managed
+[0.755s] running egg_info
+[0.757s] writing ../../build/sensordatareader/sensordatareader.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/sensordatareader/sensordatareader.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../build/sensordatareader/sensordatareader.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/sensordatareader/sensordatareader.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/sensordatareader/sensordatareader.egg-info/top_level.txt
+[0.789s] reading manifest file '../../build/sensordatareader/sensordatareader.egg-info/SOURCES.txt'
+[0.789s] writing manifest file '../../build/sensordatareader/sensordatareader.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.789s] running build_py
+[0.789s] running install
+[0.789s] running install_lib
+[0.789s] running install_data
+[0.789s] running install_egg_info
+[0.790s] removing '/home/ros_user/ros2_ws/install/sensordatareader/lib/python3.8/site-packages/sensordatareader-0.0.0-py3.8.egg-info' (and everything under it)
+[0.790s] Copying ../../build/sensordatareader/sensordatareader.egg-info to /home/ros_user/ros2_ws/install/sensordatareader/lib/python3.8/site-packages/sensordatareader-0.0.0-py3.8.egg-info
+[0.791s] running install_scripts
+[0.803s] Installing sensordatareader script to /home/ros_user/ros2_ws/install/sensordatareader/lib/sensordatareader
+[0.806s] writing list of installed files to '/home/ros_user/ros2_ws/build/sensordatareader/install.log'
+[0.817s] Invoked command in '/home/ros_user/ros2_ws/src/sensordatareader' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/sensordatareader/prefix_override:/home/ros_user/ros2_ws/install/sensordatareader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensordatareader build --build-base /home/ros_user/ros2_ws/build/sensordatareader/build install --record /home/ros_user/ros2_ws/build/sensordatareader/install.log --install-scripts $base/lib/sensordatareader --single-version-externally-managed

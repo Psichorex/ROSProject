@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/ros_user/ros2_ws/build/my_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_user/ros2_ws/install/sensordatareader:/home/ros_user/ros2_ws/install/ros2_course:/home/ros_user/ros2_ws/install/my_teleop:/home/ros_user/doosan2_ws/install/dsr_example2_py:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/my_launch -- -j4 -l4
+[0.036s] Invoked command in '/home/ros_user/ros2_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_user/ros2_ws/install/sensordatareader:/home/ros_user/ros2_ws/install/ros2_course:/home/ros_user/ros2_ws/install/my_teleop:/home/ros_user/doosan2_ws/install/dsr_example2_py:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/my_launch -- -j4 -l4
+[0.064s] Invoking command in '/home/ros_user/ros2_ws/build/my_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_user/ros2_ws/install/sensordatareader:/home/ros_user/ros2_ws/install/ros2_course:/home/ros_user/ros2_ws/install/my_teleop:/home/ros_user/doosan2_ws/install/dsr_example2_py:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/my_launch
+[0.071s] -- Install configuration: ""
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/path.sh
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/path.dsv
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.bash
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.sh
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.zsh
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.dsv
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/package.dsv
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/packages/my_launch
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/cmake/my_launchConfig.cmake
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/cmake/my_launchConfig-version.cmake
+[0.071s] -- Up-to-date: /home/ros_user/ros2_ws/install/my_launch/share/my_launch/package.xml
+[0.075s] Invoked command in '/home/ros_user/ros2_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_user/ros2_ws/install/sensordatareader:/home/ros_user/ros2_ws/install/ros2_course:/home/ros_user/ros2_ws/install/my_teleop:/home/ros_user/doosan2_ws/install/dsr_example2_py:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/my_launch

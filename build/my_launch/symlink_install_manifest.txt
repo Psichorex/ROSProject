@@ -1,0 +1,15 @@
+/home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
+/home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.sh
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.dsv
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/path.sh
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/environment/path.dsv
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.bash
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.sh
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.zsh
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/local_setup.dsv
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/package.dsv
+/home/ros_user/ros2_ws/install/my_launch/share/ament_index/resource_index/packages/my_launch
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/cmake/my_launchConfig.cmake
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/cmake/my_launchConfig-version.cmake
+/home/ros_user/ros2_ws/install/my_launch/share/my_launch/package.xml

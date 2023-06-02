@@ -1,0 +1,9 @@
+source;share/mylaunch/hook/pythonpath.ps1
+source;share/mylaunch/hook/pythonpath.dsv
+source;share/mylaunch/hook/pythonpath.sh
+source;share/mylaunch/hook/ament_prefix_path.ps1
+source;share/mylaunch/hook/ament_prefix_path.dsv
+source;share/mylaunch/hook/ament_prefix_path.sh
+source;../../build/mylaunch/share/mylaunch/hook/pythonpath_develop.ps1
+source;../../build/mylaunch/share/mylaunch/hook/pythonpath_develop.dsv
+source;../../build/mylaunch/share/mylaunch/hook/pythonpath_develop.sh

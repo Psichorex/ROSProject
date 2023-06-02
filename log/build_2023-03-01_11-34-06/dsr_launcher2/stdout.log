@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros_user/ros2_ws/build/dsr_launcher2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/package_run_dependencies/dsr_launcher2
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/parent_prefix_path/dsr_launcher2
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/path.sh
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/path.dsv
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.bash
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.sh
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.zsh
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.dsv
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/package.dsv
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/packages/dsr_launcher2
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/cmake/dsr_launcher2Config.cmake
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/cmake/dsr_launcher2Config-version.cmake
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/package.xml
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/dsr_joint_state_pub.launch.py
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_gazebo.launch.py
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_rviz.launch.py
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_rviz_gazebo.launch.py
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/rviz/default.rviz
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/worlds/car.world
+-- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/worlds/empty.world

@@ -1,0 +1,1 @@
+Invoking command in '/home/ros_user/ros2_ws/build/sensordatareader': PYTHONPATH=/home/ros_user/ros2_ws/build/sensordatareader/prefix_override:/home/ros_user/ros2_ws/install/sensordatareader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/sensordatareader/build --no-deps install_data

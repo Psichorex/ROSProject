@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating mylaunch.egg-info
+writing mylaunch.egg-info/PKG-INFO
+writing dependency_links to mylaunch.egg-info/dependency_links.txt
+writing entry points to mylaunch.egg-info/entry_points.txt
+writing requirements to mylaunch.egg-info/requires.txt
+writing top-level names to mylaunch.egg-info/top_level.txt
+writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+reading manifest file 'mylaunch.egg-info/SOURCES.txt'
+writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/site.py
+Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/mylaunch.egg-link (link to .)
+
+Installed /home/ros_user/ros2_ws/build/mylaunch
+running install_data
+creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index
+creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index
+creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index/packages
+copying resource/mylaunch -> /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros_user/ros2_ws/install/mylaunch/share/mylaunch
+copying launch/mylaunch.py -> /home/ros_user/ros2_ws/install/mylaunch/share/mylaunch

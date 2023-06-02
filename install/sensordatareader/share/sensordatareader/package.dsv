@@ -1,0 +1,9 @@
+source;share/sensordatareader/hook/pythonpath.ps1
+source;share/sensordatareader/hook/pythonpath.dsv
+source;share/sensordatareader/hook/pythonpath.sh
+source;share/sensordatareader/hook/ament_prefix_path.ps1
+source;share/sensordatareader/hook/ament_prefix_path.dsv
+source;share/sensordatareader/hook/ament_prefix_path.sh
+source;../../build/sensordatareader/share/sensordatareader/hook/pythonpath_develop.ps1
+source;../../build/sensordatareader/share/sensordatareader/hook/pythonpath_develop.dsv
+source;../../build/sensordatareader/share/sensordatareader/hook/pythonpath_develop.sh

@@ -1,0 +1,120 @@
+[0.184s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_manager -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_manager
+[0.433s] -- The C compiler identification is GNU 9.4.0
+[0.538s] -- The CXX compiler identification is GNU 9.4.0
+[0.541s] -- Check for working C compiler: /usr/bin/cc
+[0.780s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.781s] -- Detecting C compiler ABI info
+[0.929s] -- Detecting C compiler ABI info - done
+[0.937s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.943s] -- Check for working CXX compiler: /usr/bin/c++
+[1.222s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.223s] -- Detecting CXX compiler ABI info
+[1.647s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Detecting CXX compile features
+[1.662s] -- Detecting CXX compile features - done
+[1.667s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.728s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.945s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.976s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.979s] -- Found controller_interface: 0.0.0 (/home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.043s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.425s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.473s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.275s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.276s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.287s] -- Looking for pthread.h
+[3.538s] -- Looking for pthread.h - found
+[3.539s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.767s] -- Looking for pthread_create in pthreads
+[4.049s] -- Looking for pthread_create in pthreads - not found
+[4.050s] -- Looking for pthread_create in pthread
+[4.279s] -- Looking for pthread_create in pthread - found
+[4.280s] -- Found Threads: TRUE  
+[4.540s] -- Found controller_manager_msgs: 0.0.0 (/home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[4.575s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[4.727s] -- Found ament_cmake_gmock: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[4.728s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.730s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.971s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.974s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.075s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.078s] -- Configured cppcheck include dirs: /home/ros_user/ros2_ws/src/ros2_control/controller_manager/include
+[5.078s] -- Configured cppcheck exclude dirs and/or files: 
+[5.080s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.080s] -- Configured cpplint exclude dirs and/or files: 
+[5.081s] -- Added test 'lint_cmake' to check CMake code style
+[5.083s] -- Added test 'uncrustify' to check C / C++ code style
+[5.083s] -- Configured uncrustify additional arguments: 
+[5.083s] -- Added test 'xmllint' to check XML markup files
+[5.096s] -- Configuring done
+[5.229s] -- Generating done
+[5.238s] -- Build files have been written to: /home/ros_user/ros2_ws/build/controller_manager
+[5.246s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_manager -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_manager
+[5.248s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_manager -- -j4 -l4
+[5.375s] [35m[1mScanning dependencies of target controller_manager[0m
+[5.503s] [  6%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[18.467s] [ 13%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[18.903s] [ 13%] Built target controller_manager
+[18.954s] [35m[1mScanning dependencies of target gmock_main[0m
+[18.998s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[20.509s] [ 26%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[20.645s] [ 26%] Built target gmock_main
+[20.693s] [35m[1mScanning dependencies of target test_controller[0m
+[20.801s] [ 33%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[24.852s] [ 40%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[25.044s] [ 40%] Built target test_controller
+[25.091s] [35m[1mScanning dependencies of target gmock[0m
+[25.148s] [ 46%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[29.544s] [ 53%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[31.885s] [ 60%] [32m[1mLinking CXX static library libgmock.a[0m
+[31.956s] [ 60%] Built target gmock
+[31.996s] [35m[1mScanning dependencies of target test_controller_manager[0m
+[32.083s] [ 66%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[36.737s] [ 73%] [32m[1mLinking CXX executable test_controller_manager[0m
+[37.385s] [ 73%] Built target test_controller_manager
+[37.430s] [35m[1mScanning dependencies of target test_controller_manager_srvs[0m
+[37.486s] [ 80%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[45.142s] [ 86%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[45.544s] [ 86%] Built target test_controller_manager_srvs
+[45.593s] [35m[1mScanning dependencies of target test_load_controller[0m
+[45.633s] [ 93%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[49.133s] [100%] [32m[1mLinking CXX executable test_load_controller[0m
+[49.451s] [100%] Built target test_load_controller
+[49.459s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_manager -- -j4 -l4
+[49.481s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_manager
+[49.489s] -- Install configuration: ""
+[49.489s] -- Execute custom install script
+[49.489s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[49.494s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[49.500s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[49.505s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[49.510s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller.xml
+[49.516s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/lib/libtest_controller.so
+[49.521s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[49.526s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[49.532s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[49.537s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[49.543s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[49.549s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[49.554s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[49.562s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[49.565s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[49.570s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[49.575s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[49.581s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[49.587s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[49.592s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[49.597s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[49.602s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[49.607s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.612s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.617s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[49.622s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[49.627s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/package.xml
+[49.644s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_manager

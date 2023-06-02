@@ -1,0 +1,16 @@
+[0.649s] Invoking command in '/home/ros_user/ros2_ws/build/mylaunch': PYTHONPATH=/home/ros_user/ros2_ws/build/mylaunch/prefix_override:/home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/mylaunch/build --no-deps install_data
+[0.760s] running develop
+[0.815s] running egg_info
+[0.815s] writing mylaunch.egg-info/PKG-INFO
+[0.815s] writing dependency_links to mylaunch.egg-info/dependency_links.txt
+[0.815s] writing entry points to mylaunch.egg-info/entry_points.txt
+[0.815s] writing requirements to mylaunch.egg-info/requires.txt
+[0.815s] writing top-level names to mylaunch.egg-info/top_level.txt
+[0.824s] reading manifest file 'mylaunch.egg-info/SOURCES.txt'
+[0.824s] writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+[0.839s] running build_ext
+[0.839s] Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/mylaunch.egg-link (link to .)
+[0.839s] 
+[0.839s] Installed /home/ros_user/ros2_ws/build/mylaunch
+[0.839s] running install_data
+[0.852s] Invoked command in '/home/ros_user/ros2_ws/build/mylaunch' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/mylaunch/prefix_override:/home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/mylaunch/build --no-deps install_data

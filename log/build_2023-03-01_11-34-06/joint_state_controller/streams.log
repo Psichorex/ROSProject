@@ -1,0 +1,111 @@
+[0.009s] Invoking command in '/home/ros_user/ros2_ws/build/joint_state_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/joint_state_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/joint_state_controller
+[0.048s] -- The C compiler identification is GNU 9.4.0
+[0.086s] -- The CXX compiler identification is GNU 9.4.0
+[0.089s] -- Check for working C compiler: /usr/bin/cc
+[0.167s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.168s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.352s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.619s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.753s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.223s] -- Found controller_interface: 0.0.0 (/home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.306s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.308s] -- Looking for pthread.h
+[1.456s] -- Looking for pthread.h - found
+[1.456s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.535s] -- Looking for pthread_create in pthreads
+[1.591s] -- Looking for pthread_create in pthreads - not found
+[1.593s] -- Looking for pthread_create in pthread
+[1.671s] -- Looking for pthread_create in pthread - found
+[1.672s] -- Found Threads: TRUE  
+[1.819s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.832s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.909s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.911s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.911s] -- Found controller_manager: 0.0.0 (/home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[1.935s] -- Found test_robot_hardware: 0.0.0 (/home/ros_user/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake)
+[2.044s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.046s] -- Check if compiler accepts -pthread
+[2.152s] -- Check if compiler accepts -pthread - yes
+[2.189s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.191s] -- Configured cppcheck include dirs: /home/ros_user/ros2_ws/src/ros2_controllers/joint_state_controller/include
+[2.191s] -- Configured cppcheck exclude dirs and/or files: 
+[2.191s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.192s] -- Configured cpplint exclude dirs and/or files: 
+[2.192s] -- Added test 'lint_cmake' to check CMake code style
+[2.193s] -- Added test 'uncrustify' to check C / C++ code style
+[2.193s] -- Configured uncrustify additional arguments: 
+[2.194s] -- Added test 'xmllint' to check XML markup files
+[2.198s] -- Configuring done
+[2.229s] -- Generating done
+[2.230s] -- Build files have been written to: /home/ros_user/ros2_ws/build/joint_state_controller
+[2.238s] Invoked command in '/home/ros_user/ros2_ws/build/joint_state_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/joint_state_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/joint_state_controller
+[2.238s] Invoking command in '/home/ros_user/ros2_ws/build/joint_state_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/joint_state_controller -- -j4 -l4
+[2.288s] [35m[1mScanning dependencies of target gtest[0m
+[2.322s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.953s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.997s] [ 20%] Built target gtest
+[5.010s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.018s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.533s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.551s] [ 40%] Built target gtest_main
+[5.557s] [35m[1mScanning dependencies of target joint_state_controller[0m
+[5.591s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_controller.dir/src/joint_state_controller.cpp.o[0m
+[8.326s] [ 60%] [32m[1mLinking CXX shared library libjoint_state_controller.so[0m
+[8.448s] [ 60%] Built target joint_state_controller
+[8.453s] [35m[1mScanning dependencies of target test_load_joint_state_controller[0m
+[8.487s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_controller.dir/test/test_load_joint_state_controller.cpp.o[0m
+[10.830s] [ 80%] [32m[1mLinking CXX executable test_load_joint_state_controller[0m
+[11.014s] [ 80%] Built target test_load_joint_state_controller
+[11.020s] [35m[1mScanning dependencies of target test_joint_state_controller[0m
+[11.079s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_state_controller.dir/test/test_joint_state_controller.cpp.o[0m
+[17.488s] [100%] [32m[1mLinking CXX executable test_joint_state_controller[0m
+[17.768s] [100%] Built target test_joint_state_controller
+[17.774s] Invoked command in '/home/ros_user/ros2_ws/build/joint_state_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/joint_state_controller -- -j4 -l4
+[17.795s] Invoking command in '/home/ros_user/ros2_ws/build/joint_state_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/joint_state_controller
+[17.801s] -- Install configuration: ""
+[17.802s] -- Execute custom install script
+[17.802s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller//joint_state_plugin.xml
+[17.808s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/include/joint_state_controller/joint_state_controller.hpp
+[17.815s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/include/joint_state_controller/visibility_control.h
+[17.821s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/lib/libjoint_state_controller.so
+[17.826s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/library_path.sh
+[17.831s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/library_path.dsv
+[17.836s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/ament_index/resource_index/package_run_dependencies/joint_state_controller
+[17.841s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/ament_index/resource_index/parent_prefix_path/joint_state_controller
+[17.846s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/ament_prefix_path.sh
+[17.853s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/ament_prefix_path.dsv
+[17.859s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/path.sh
+[17.868s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/environment/path.dsv
+[17.873s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/local_setup.bash
+[17.878s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/local_setup.sh
+[17.883s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/local_setup.zsh
+[17.888s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/local_setup.dsv
+[17.893s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/package.dsv
+[17.901s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/ament_index/resource_index/packages/joint_state_controller
+[17.904s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_controller
+[17.909s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.914s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.919s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[17.924s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/cmake/joint_state_controllerConfig.cmake
+[17.929s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/cmake/joint_state_controllerConfig-version.cmake
+[17.934s] -- Symlinking: /home/ros_user/ros2_ws/install/joint_state_controller/share/joint_state_controller/package.xml
+[17.945s] Invoked command in '/home/ros_user/ros2_ws/build/joint_state_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/joint_state_controller

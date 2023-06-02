@@ -1,0 +1,1 @@
+/home/ros_user/ros2_ws/build/my_launch/ament_cmake_core/my_launchConfig-version.cmake

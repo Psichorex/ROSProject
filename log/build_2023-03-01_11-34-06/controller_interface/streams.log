@@ -1,0 +1,85 @@
+[0.067s] Invoking command in '/home/ros_user/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_interface -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_interface
+[0.222s] -- The C compiler identification is GNU 9.4.0
+[0.312s] -- The CXX compiler identification is GNU 9.4.0
+[0.315s] -- Check for working C compiler: /usr/bin/cc
+[0.562s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.562s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.746s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++
+[0.876s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.877s] -- Detecting CXX compiler ABI info
+[1.043s] -- Detecting CXX compiler ABI info - done
+[1.058s] -- Detecting CXX compile features
+[1.059s] -- Detecting CXX compile features - done
+[1.060s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.376s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.415s] -- Found hardware_interface: 0.0.0 (/home/ros_user/ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.474s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.772s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.820s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.586s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.698s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.702s] -- Looking for pthread.h
+[2.893s] -- Looking for pthread.h - found
+[2.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.040s] -- Looking for pthread_create in pthreads
+[3.158s] -- Looking for pthread_create in pthreads - not found
+[3.158s] -- Looking for pthread_create in pthread
+[3.320s] -- Looking for pthread_create in pthread - found
+[3.321s] -- Found Threads: TRUE  
+[3.816s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.959s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.960s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.960s] -- Configured cppcheck include dirs: /home/ros_user/ros2_ws/src/ros2_control/controller_interface/include
+[3.960s] -- Configured cppcheck exclude dirs and/or files: 
+[3.968s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.968s] -- Configured cpplint exclude dirs and/or files: 
+[3.969s] -- Added test 'lint_cmake' to check CMake code style
+[3.970s] -- Added test 'uncrustify' to check C / C++ code style
+[3.970s] -- Configured uncrustify additional arguments: 
+[3.971s] -- Added test 'xmllint' to check XML markup files
+[3.980s] -- Configuring done
+[4.021s] -- Generating done
+[4.023s] -- Build files have been written to: /home/ros_user/ros2_ws/build/controller_interface
+[4.033s] Invoked command in '/home/ros_user/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_interface -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_interface
+[4.034s] Invoking command in '/home/ros_user/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_interface -- -j4 -l4
+[4.175s] [35m[1mScanning dependencies of target controller_interface[0m
+[4.323s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[8.368s] [100%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[8.634s] [100%] Built target controller_interface
+[8.676s] Invoked command in '/home/ros_user/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_interface -- -j4 -l4
+[8.838s] Invoking command in '/home/ros_user/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_interface
+[8.855s] -- Install configuration: ""
+[8.855s] -- Execute custom install script
+[8.855s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[8.876s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[8.889s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/lib/libcontroller_interface.so
+[8.903s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[8.923s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[8.951s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[8.968s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[8.995s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[9.027s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[9.049s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[9.076s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[9.116s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[9.141s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[9.165s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[9.192s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[9.227s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/package.dsv
+[9.273s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[9.296s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.321s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.347s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[9.365s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[9.381s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[9.399s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/package.xml
+[9.436s] Invoked command in '/home/ros_user/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_interface

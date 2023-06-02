@@ -1,0 +1,110 @@
+[0.075s] Invoking command in '/home/ros_user/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/forward_command_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/forward_command_controller
+[0.111s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.153s] -- Check for working C compiler: /usr/bin/cc
+[0.228s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.229s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.300s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.383s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.507s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.713s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.755s] -- Found controller_interface: 0.0.0 (/home/ros_user/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.907s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.473s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.474s] -- Looking for pthread.h
+[1.561s] -- Looking for pthread.h - found
+[1.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.656s] -- Looking for pthread_create in pthreads
+[1.808s] -- Looking for pthread_create in pthreads - not found
+[1.809s] -- Looking for pthread_create in pthread
+[1.971s] -- Looking for pthread_create in pthread - found
+[1.972s] -- Found Threads: TRUE  
+[2.139s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[2.152s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.295s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.296s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.297s] -- Found controller_manager: 0.0.0 (/home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[2.322s] -- Found test_robot_hardware: 0.0.0 (/home/ros_user/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake)
+[2.411s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.413s] -- Check if compiler accepts -pthread
+[2.554s] -- Check if compiler accepts -pthread - yes
+[2.659s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.660s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.660s] -- Configured cppcheck include dirs: /home/ros_user/ros2_ws/src/ros2_controllers/forward_command_controller/include
+[2.660s] -- Configured cppcheck exclude dirs and/or files: 
+[2.661s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.661s] -- Configured cpplint exclude dirs and/or files: 
+[2.661s] -- Added test 'lint_cmake' to check CMake code style
+[2.662s] -- Added test 'uncrustify' to check C / C++ code style
+[2.662s] -- Configured uncrustify additional arguments: 
+[2.662s] -- Added test 'xmllint' to check XML markup files
+[2.666s] -- Configuring done
+[2.768s] -- Generating done
+[2.770s] -- Build files have been written to: /home/ros_user/ros2_ws/build/forward_command_controller
+[2.780s] Invoked command in '/home/ros_user/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/forward_command_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/forward_command_controller
+[2.780s] Invoking command in '/home/ros_user/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/forward_command_controller -- -j4 -l4
+[2.913s] [35m[1mScanning dependencies of target gtest[0m
+[2.934s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.322s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.353s] [ 20%] Built target gtest
+[5.359s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[5.388s] [ 30%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[9.143s] [ 40%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[9.312s] [ 40%] Built target forward_command_controller
+[9.318s] [35m[1mScanning dependencies of target gtest_main[0m
+[9.326s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.817s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.834s] [ 60%] Built target gtest_main
+[9.841s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[9.875s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[12.141s] [ 80%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[12.344s] [ 80%] Built target test_load_forward_command_controller
+[12.350s] [35m[1mScanning dependencies of target test_forward_command_controller[0m
+[12.381s] [ 90%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[15.804s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[16.080s] [100%] Built target test_forward_command_controller
+[16.087s] Invoked command in '/home/ros_user/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/forward_command_controller -- -j4 -l4
+[16.105s] Invoking command in '/home/ros_user/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/forward_command_controller
+[16.112s] -- Install configuration: ""
+[16.112s] -- Execute custom install script
+[16.112s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller//forward_command_plugin.xml
+[16.118s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp
+[16.123s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/include/forward_command_controller/visibility_control.h
+[16.129s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/lib/libforward_command_controller.so
+[16.134s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[16.139s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[16.144s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[16.149s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[16.154s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[16.159s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[16.164s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[16.169s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[16.174s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[16.179s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[16.184s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[16.189s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[16.194s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+[16.199s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[16.204s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[16.209s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.214s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.219s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[16.224s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[16.229s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[16.234s] -- Symlinking: /home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/package.xml
+[16.243s] Invoked command in '/home/ros_user/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/forward_command_controller

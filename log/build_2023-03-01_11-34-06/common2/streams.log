@@ -1,0 +1,137 @@
+[0.019s] Invoking command in '/home/ros_user/ros2_ws/build/common2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/common2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/common2
+[0.165s] -- The C compiler identification is GNU 9.4.0
+[0.234s] -- The CXX compiler identification is GNU 9.4.0
+[0.237s] -- Check for working C compiler: /usr/bin/cc
+[0.394s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.512s] -- Detecting C compiler ABI info - done
+[0.531s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.534s] -- Check for working CXX compiler: /usr/bin/c++
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.698s] -- Detecting CXX compiler ABI info
+[0.900s] -- Detecting CXX compiler ABI info - done
+[0.909s] -- Detecting CXX compile features
+[0.911s] -- Detecting CXX compile features - done
+[0.915s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.968s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.187s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.336s] -- Configuring done
+[1.337s] -- Generating done
+[1.338s] -- Build files have been written to: /home/ros_user/ros2_ws/build/common2
+[1.343s] Invoked command in '/home/ros_user/ros2_ws/build/common2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/common2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/common2
+[1.344s] Invoking command in '/home/ros_user/ros2_ws/build/common2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/common2 -- -j4 -l4
+[1.436s] Invoked command in '/home/ros_user/ros2_ws/build/common2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/common2 -- -j4 -l4
+[1.585s] Invoking command in '/home/ros_user/ros2_ws/build/common2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/common2
+[1.611s] -- Install configuration: ""
+[1.612s] -- Execute custom install script
+[1.612s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/ament_index/resource_index/package_run_dependencies/common2
+[1.631s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/ament_index/resource_index/parent_prefix_path/common2
+[1.650s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/environment/ament_prefix_path.sh
+[1.682s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/environment/ament_prefix_path.dsv
+[1.706s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/environment/path.sh
+[1.731s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/environment/path.dsv
+[1.756s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/local_setup.bash
+[1.782s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/local_setup.sh
+[1.789s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/local_setup.zsh
+[1.806s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/local_setup.dsv
+[1.821s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/package.dsv
+[1.848s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/ament_index/resource_index/packages/common2
+[1.868s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/cmake/common2Config.cmake
+[1.891s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/cmake/common2Config-version.cmake
+[1.917s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/package.xml
+[1.941s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DRFC.py
+[1.975s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DR_common2.py
+[1.993s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DR_error2.py
+[2.019s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DR_init.py
+[2.043s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DR_tcp_client2.py
+[2.063s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DR_tcp_server2.py
+[2.081s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DSR_ROBOT2.py
+[2.101s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/DSR_util2.py
+[2.128s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/imp/__init__.py
+[2.146s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/M3_M0906.xml
+[2.163s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/M3_M0915.xml
+[2.183s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/M3_M1310.xml
+[2.204s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/M3_M1706.xml
+[2.225s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_A0509.xml
+[2.259s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_A0912.xml
+[2.283s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_H2017.xml
+[2.308s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_H2515.xml
+[2.328s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_M0609.xml
+[2.338s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_M0617.xml
+[2.367s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_M1013.xml
+[2.388s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/BV/MF_M1509.xml
+[2.410s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/CommandDefine.org
+[2.429s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/CommandDefine.xml
+[2.448s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/Group/m0609/DV3060900.xml
+[2.469s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/Group/m0617/DV3061700.xml
+[2.484s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/Group/m1013/DV3101300.xml
+[2.503s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/Group/m1509/DV3150900.xml
+[2.535s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/Group/vdi/vdi.xml
+[2.557s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/a0307.xml
+[2.577s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/a0509.xml
+[2.605s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/a0509s.xml
+[2.625s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/a0912.xml
+[2.646s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/a0912s.xml
+[2.655s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/h2017.xml
+[2.661s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/h2515.xml
+[2.667s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m0609.xml
+[2.676s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m0609a.xml
+[2.704s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m0617.xml
+[2.731s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m0617a.xml
+[2.751s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m1013.xml
+[2.777s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m1013a.xml
+[2.801s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m1509.xml
+[2.829s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/MF/m1509a.xml
+[2.861s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config.xml
+[2.887s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_a0307.xml
+[2.906s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_a0509.xml
+[2.935s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_m0609.xml
+[2.957s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_m0617.xml
+[2.984s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_m1013.xml
+[3.011s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/bin/common2/config/config_m1509.xml
+[3.030s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/DRCF64
+[3.047s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/M3_M0906.xml
+[3.073s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/M3_M0915.xml
+[3.095s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/M3_M1310.xml
+[3.116s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/M3_M1706.xml
+[3.135s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_A0509.xml
+[3.152s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_A0912.xml
+[3.177s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_H2017.xml
+[3.193s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_H2515.xml
+[3.205s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_M0609.xml
+[3.227s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_M0617.xml
+[3.244s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_M1013.xml
+[3.271s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/BV/MF_M1509.xml
+[3.290s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/CommandDefine.org
+[3.309s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/CommandDefine.xml
+[3.337s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/Group/m0609/DV3060900.xml
+[3.361s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/Group/m0617/DV3061700.xml
+[3.386s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/Group/m1013/DV3101300.xml
+[3.406s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/Group/m1509/DV3150900.xml
+[3.435s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/Group/vdi/vdi.xml
+[3.455s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/a0307.xml
+[3.476s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/a0509.xml
+[3.492s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/a0509s.xml
+[3.501s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/a0912.xml
+[3.507s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/a0912s.xml
+[3.522s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/h2017.xml
+[3.532s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/h2515.xml
+[3.537s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m0609.xml
+[3.553s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m0609a.xml
+[3.573s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m0617.xml
+[3.591s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m0617a.xml
+[3.614s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m1013.xml
+[3.631s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m1013a.xml
+[3.655s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m1509.xml
+[3.673s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/MF/m1509a.xml
+[3.697s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config.xml
+[3.717s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_a0307.xml
+[3.736s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_a0509.xml
+[3.752s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_m0609.xml
+[3.773s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_m0617.xml
+[3.803s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_m1013.xml
+[3.820s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/config/config_m1509.xml
+[3.846s] -- Symlinking: /home/ros_user/ros2_ws/install/common2/share/common2/bin/DRCF/run_drcf.sh
+[3.886s] Invoked command in '/home/ros_user/ros2_ws/build/common2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/common2

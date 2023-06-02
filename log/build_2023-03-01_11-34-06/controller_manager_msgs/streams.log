@@ -1,0 +1,337 @@
+[0.026s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_manager_msgs
+[0.166s] -- The C compiler identification is GNU 9.4.0
+[0.256s] -- The CXX compiler identification is GNU 9.4.0
+[0.264s] -- Check for working C compiler: /usr/bin/cc
+[0.321s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.322s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.367s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.416s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.494s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.494s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.623s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.640s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.716s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.735s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.805s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.813s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.874s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.956s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.068s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.088s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.088s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.088s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.101s] -- Found PythonExtra: .so  
+[1.139s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.140s] -- Added test 'lint_cmake' to check CMake code style
+[1.140s] -- Added test 'xmllint' to check XML markup files
+[1.146s] -- Configuring done
+[1.178s] -- Generating done
+[1.180s] -- Build files have been written to: /home/ros_user/ros2_ws/build/controller_manager_msgs
+[1.188s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/controller_manager_msgs
+[1.188s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_manager_msgs -- -j4 -l4
+[1.225s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.234s] [35m[1mScanning dependencies of target controller_manager_msgs__cpp[0m
+[1.240s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.407s] [  2%] Built target controller_manager_msgs__cpp
+[2.417s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.450s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.563s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_generator_c[0m
+[2.567s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.642s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[2.775s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[2.934s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[3.031s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[3.085s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[3.120s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_cpp[0m
+[3.146s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[3.182s] [ 15%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[3.264s] [ 16%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[3.374s] [ 17%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[3.483s] [ 17%] Built target controller_manager_msgs__rosidl_generator_c
+[3.507s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.661s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.703s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.717s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[3.718s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[3.783s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[4.175s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[4.274s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[4.409s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o[0m
+[4.714s] [ 27%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[4.714s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c[0m
+[4.762s] [ 29%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[4.810s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[4.838s] [ 31%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[4.942s] [ 32%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[5.023s] [ 34%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[5.107s] [ 35%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[5.218s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[5.219s] [ 37%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[5.238s] [ 39%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o[0m
+[5.246s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[5.286s] [ 41%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[5.375s] [ 43%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.470s] [ 43%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[5.509s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.827s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[5.860s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[6.047s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o[0m
+[6.188s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c[0m
+[6.258s] [ 49%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[6.330s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[6.349s] [ 51%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[6.395s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[6.447s] [ 54%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[6.574s] [ 55%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[6.698s] [ 56%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[6.816s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[6.900s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o[0m
+[6.930s] [ 60%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so[0m
+[6.941s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[7.044s] [ 63%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so[0m
+[7.066s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[7.071s] [ 64%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[7.098s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o[0m
+[7.164s] [ 65%] Built target controller_manager_msgs__rosidl_typesupport_c
+[7.206s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o[0m
+[7.763s] [ 68%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.963s] [ 68%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[8.204s] [ 69%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.327s] [ 69%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[8.383s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.539s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c[0m
+[9.602s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[9.604s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[9.610s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[9.646s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[10.405s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[10.422s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[10.431s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[11.299s] [ 81%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.525s] [ 81%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[11.571s] [35m[1mScanning dependencies of target controller_manager_msgs[0m
+[11.613s] [ 81%] Built target controller_manager_msgs
+[11.654s] [35m[1mScanning dependencies of target controller_manager_msgs__py[0m
+[11.695s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.392s] [ 82%] Built target controller_manager_msgs__py
+[13.397s] [35m[1mScanning dependencies of target controller_manager_msgs__python[0m
+[13.470s] [ 83%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[13.474s] [ 84%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[13.501s] [ 86%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[13.541s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[13.638s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[13.646s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[13.703s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[13.866s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/libcontroller_manager_msgs__python.so[0m
+[13.963s] [ 92%] Built target controller_manager_msgs__python
+[13.995s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c__pyext[0m
+[14.011s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[14.020s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.058s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.063s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.082s] [ 96%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.279s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.322s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.337s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.390s] [100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[14.444s] [100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[14.483s] [100%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.505s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/controller_manager_msgs -- -j4 -l4
+[16.093s] Invoking command in '/home/ros_user/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_manager_msgs
+[16.109s] -- Install configuration: ""
+[16.109s] -- Execute custom install script
+[16.110s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[16.126s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.h
+[16.148s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__functions.h
+[16.169s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.h
+[16.187s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[16.205s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.220s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[16.234s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[16.252s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[16.271s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[16.286s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[16.300s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[16.314s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__functions.h
+[16.329s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.h
+[16.347s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[16.362s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[16.383s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[16.403s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[16.418s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[16.442s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[16.467s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[16.486s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[16.522s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[16.532s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[16.558s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.h
+[16.594s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.h
+[16.624s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.h
+[16.651s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.h
+[16.676s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.h
+[16.697s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.h
+[16.719s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[16.741s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[16.773s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[16.804s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.818s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[16.838s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[16.854s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[16.876s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[16.910s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[16.933s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[16.961s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[16.983s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.005s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.017s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[17.036s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[17.053s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[17.069s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[17.085s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[17.104s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[17.132s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.155s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[17.182s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.205s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[17.215s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[17.220s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[17.237s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[17.254s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[17.271s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[17.295s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.hpp
+[17.309s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[17.333s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[17.348s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[17.370s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[17.399s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[17.408s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[17.417s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[17.428s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[17.454s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[17.483s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[17.509s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[17.522s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[17.528s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[17.546s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[17.562s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[17.573s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[17.585s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[17.596s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[17.607s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[17.619s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[17.624s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[17.641s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.hpp
+[17.662s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.hpp
+[17.681s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.hpp
+[17.695s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[17.716s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.hpp
+[17.721s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.hpp
+[17.735s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[17.741s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[17.751s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[17.757s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[17.762s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[17.781s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[17.792s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[17.812s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[17.833s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[17.843s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py
+[17.865s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/__init__.py
+[17.877s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_controller_state.py
+[17.883s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/__init__.py
+[17.898s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[17.903s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[17.913s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_controller.py
+[17.938s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[17.957s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[17.990s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[18.007s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[18.018s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[18.037s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[18.046s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__python.so
+[18.054s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[18.061s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[18.068s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[18.083s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[18.105s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[18.135s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[18.150s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[18.166s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[18.188s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[18.204s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[18.224s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[18.245s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[18.257s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[18.262s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[18.267s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[18.298s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[18.325s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[18.349s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[18.360s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[18.394s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[18.427s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[18.446s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[18.462s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[18.489s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[18.507s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[18.535s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[18.573s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[18.623s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[18.646s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[18.684s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[18.715s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[18.731s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[18.750s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[18.771s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[18.798s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[18.823s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[18.859s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[18.891s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[18.923s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[18.950s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.985s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.014s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.032s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.059s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.087s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.114s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[19.138s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[19.167s] -- Symlinking: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[19.202s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[19.202s] -- Set runtime path of "/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so" to ""
+[19.202s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[19.203s] -- Set runtime path of "/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.203s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[19.203s] -- Set runtime path of "/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so" to ""
+[19.203s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[19.203s] -- Set runtime path of "/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.204s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[19.204s] -- Set runtime path of "/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so" to ""
+[19.263s] Compiling '/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py'...
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport.cmake
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[19.278s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.279s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cppExport.cmake
+[19.279s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.279s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.279s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[19.279s] -- Installing: /home/ros_user/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.298s] Invoked command in '/home/ros_user/ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/controller_manager_msgs

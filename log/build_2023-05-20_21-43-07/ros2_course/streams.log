@@ -1,0 +1,16 @@
+[0.588s] Invoking command in '/home/ros_user/ros2_ws/build/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build --no-deps install_data
+[0.681s] running develop
+[0.760s] running egg_info
+[0.760s] writing ros2_course.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[0.761s] writing entry points to ros2_course.egg-info/entry_points.txt
+[0.761s] writing requirements to ros2_course.egg-info/requires.txt
+[0.761s] writing top-level names to ros2_course.egg-info/top_level.txt
+[0.775s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.789s] running build_ext
+[0.789s] Creating /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2-course.egg-link (link to .)
+[0.789s] Installing hello script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[0.790s] 
+[0.790s] Installed /home/ros_user/ros2_ws/build/ros2_course
+[0.790s] running install_data

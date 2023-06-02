@@ -1,0 +1,175 @@
+[0.041s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/dsr_gazebo2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/dsr_gazebo2
+[0.090s] -- The C compiler identification is GNU 9.4.0
+[0.124s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.174s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.175s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.297s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.374s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.408s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.617s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[0.619s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.664s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.755s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.943s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.982s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.984s] -- Looking for pthread.h
+[1.066s] -- Looking for pthread.h - found
+[1.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.111s] -- Looking for pthread_create in pthreads
+[1.150s] -- Looking for pthread_create in pthreads - not found
+[1.150s] -- Looking for pthread_create in pthread
+[1.203s] -- Looking for pthread_create in pthread - found
+[1.204s] -- Found Threads: TRUE  
+[1.307s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.359s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.367s] -- Found dsr_description2: 1.1.0 (/home/ros_user/ros2_ws/install/dsr_description2/share/dsr_description2/cmake)
+[1.414s] -- Configuring done
+[1.416s] -- Generating done
+[1.417s] -- Build files have been written to: /home/ros_user/ros2_ws/build/dsr_gazebo2
+[1.424s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/dsr_gazebo2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/dsr_gazebo2
+[1.425s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/dsr_gazebo2 -- -j4 -l4
+[1.455s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/dsr_gazebo2 -- -j4 -l4
+[1.468s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/dsr_gazebo2
+[1.473s] -- Install configuration: ""
+[1.473s] -- Execute custom install script
+[1.474s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/launch/dsr_gazebo.launch.py
+[1.480s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/a0509.sdf
+[1.486s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_0_0.dae
+[1.491s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_0.dae
+[1.497s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_1.dae
+[1.502s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_2.dae
+[1.508s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_0.dae
+[1.513s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_1.dae
+[1.519s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_2.dae
+[1.524s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_3_0.dae
+[1.529s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_3_1.dae
+[1.534s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_4_0.dae
+[1.540s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_4_1.dae
+[1.545s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_5_0.dae
+[1.550s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_5_1.dae
+[1.556s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_6_0.dae
+[1.561s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/model.config
+[1.567s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/a0912.sdf
+[1.572s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_0_0.dae
+[1.578s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_0.dae
+[1.583s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_1.dae
+[1.588s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_2.dae
+[1.593s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_0.dae
+[1.599s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_1.dae
+[1.604s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_2.dae
+[1.609s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_3_0.dae
+[1.615s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_3_1.dae
+[1.620s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_4_0.dae
+[1.625s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_4_1.dae
+[1.631s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_5_0.dae
+[1.636s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_5_1.dae
+[1.642s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_6_0.dae
+[1.647s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/model.config
+[1.652s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/h2017.sdf
+[1.658s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_0_0.dae
+[1.664s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_1_0.dae
+[1.669s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_0.dae
+[1.674s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_1.dae
+[1.679s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_2.dae
+[1.684s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_3_0.dae
+[1.690s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_4_0.dae
+[1.695s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_4_1.dae
+[1.700s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_5_0.dae
+[1.705s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_6_0.dae
+[1.711s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/model.config
+[1.716s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/h2515.sdf
+[1.722s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_0_0.dae
+[1.727s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_1_0.dae
+[1.732s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_0.dae
+[1.738s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_1.dae
+[1.743s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_2.dae
+[1.748s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_3_0.dae
+[1.754s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_4_0.dae
+[1.760s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_4_1.dae
+[1.765s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_5_0.dae
+[1.771s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_6_0.dae
+[1.776s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/model.config
+[1.782s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/m0609.sdf
+[1.788s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_0_0.dae
+[1.793s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_1_0.dae
+[1.798s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_0.dae
+[1.804s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_1.dae
+[1.809s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_2.dae
+[1.815s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_3_0.dae
+[1.821s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_4_0.dae
+[1.826s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_4_1.dae
+[1.832s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_5_0.dae
+[1.837s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_6_0.dae
+[1.843s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/model.config
+[1.848s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/m0617.sdf
+[1.854s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_0_0.dae
+[1.860s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_1_0.dae
+[1.866s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_0.dae
+[1.871s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_1.dae
+[1.877s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_2.dae
+[1.882s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_3_0.dae
+[1.888s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_4_0.dae
+[1.894s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_4_1.dae
+[1.899s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_5_0.dae
+[1.905s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_6_0.dae
+[1.911s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/model.config
+[1.917s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/m1013.sdf
+[1.922s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_0_0.dae
+[1.928s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_1_0.dae
+[1.933s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_0.dae
+[1.939s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_1.dae
+[1.945s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_2.dae
+[1.951s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_3_0.dae
+[1.956s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_4_0.dae
+[1.963s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_4_1.dae
+[1.969s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_5_0.dae
+[1.974s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_6_0.dae
+[1.980s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/model.config
+[1.985s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/m1509.sdf
+[1.991s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_0_0.dae
+[1.997s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_1_0.dae
+[2.004s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_0.dae
+[2.009s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_1.dae
+[2.015s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_2.dae
+[2.021s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_3_0.dae
+[2.027s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_4_0.dae
+[2.032s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_4_1.dae
+[2.038s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_5_0.dae
+[2.044s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_6_0.dae
+[2.049s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/model.config
+[2.055s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/worlds/empty_world.model
+[2.063s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/worlds/empty_world.world
+[2.069s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/package_run_dependencies/dsr_gazebo2
+[2.076s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/parent_prefix_path/dsr_gazebo2
+[2.081s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/ament_prefix_path.sh
+[2.087s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/ament_prefix_path.dsv
+[2.096s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/path.sh
+[2.107s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/path.dsv
+[2.114s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.bash
+[2.123s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.sh
+[2.132s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.zsh
+[2.140s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.dsv
+[2.149s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/package.dsv
+[2.160s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/packages/dsr_gazebo2
+[2.168s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.174s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/dsr_gazebo2Config.cmake
+[2.180s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/dsr_gazebo2Config-version.cmake
+[2.186s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/package.xml
+[2.194s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/velocity_controllers:/home/ros_user/ros2_ws/install/position_controllers:/home/ros_user/ros2_ws/install/joint_trajectory_controller:/home/ros_user/ros2_ws/install/joint_state_controller:/home/ros_user/ros2_ws/install/gazebo_ros2_control:/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/transmission_interface:/home/ros_user/ros2_ws/install/joint_limits_interface:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/dsr_description2:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/velocity_controllers/lib:/home/ros_user/ros2_ws/install/position_controllers/lib:/home/ros_user/ros2_ws/install/joint_trajectory_controller/lib:/home/ros_user/ros2_ws/install/joint_state_controller/lib:/home/ros_user/ros2_ws/install/gazebo_ros2_control/lib:/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/transmission_interface/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/dsr_gazebo2

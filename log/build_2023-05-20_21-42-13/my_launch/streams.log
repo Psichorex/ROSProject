@@ -1,0 +1,12 @@
+[0.587s] Invoking command in '/home/ros_user/ros2_ws/build/my_launch': PYTHONPATH=/home/ros_user/ros2_ws/build/my_launch/prefix_override:/home/ros_user/ros2_ws/install/my_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/my_launch/build --no-deps install_data
+[0.688s] running develop
+[0.736s] running egg_info
+[0.736s] creating my_launch.egg-info
+[0.736s] writing my_launch.egg-info/PKG-INFO
+[0.736s] writing dependency_links to my_launch.egg-info/dependency_links.txt
+[0.736s] writing entry points to my_launch.egg-info/entry_points.txt
+[0.736s] writing requirements to my_launch.egg-info/requires.txt
+[0.736s] writing top-level names to my_launch.egg-info/top_level.txt
+[0.736s] writing manifest file 'my_launch.egg-info/SOURCES.txt'
+[0.749s] error: package directory 'my_launch' does not exist
+[0.759s] Invoked command in '/home/ros_user/ros2_ws/build/my_launch' returned '1': PYTHONPATH=/home/ros_user/ros2_ws/build/my_launch/prefix_override:/home/ros_user/ros2_ws/install/my_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/my_launch/build --no-deps install_data

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+launch/mylaunch.py
+mylaunch/__init__.py
+mylaunch.egg-info/PKG-INFO
+mylaunch.egg-info/SOURCES.txt
+mylaunch.egg-info/dependency_links.txt
+mylaunch.egg-info/entry_points.txt
+mylaunch.egg-info/requires.txt
+mylaunch.egg-info/top_level.txt
+mylaunch.egg-info/zip-safe
+resource/mylaunch

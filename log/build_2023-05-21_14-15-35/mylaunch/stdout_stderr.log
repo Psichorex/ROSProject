@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing mylaunch.egg-info/PKG-INFO
+writing dependency_links to mylaunch.egg-info/dependency_links.txt
+writing entry points to mylaunch.egg-info/entry_points.txt
+writing requirements to mylaunch.egg-info/requires.txt
+writing top-level names to mylaunch.egg-info/top_level.txt
+reading manifest file 'mylaunch.egg-info/SOURCES.txt'
+writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/mylaunch.egg-link (link to .)
+
+Installed /home/ros_user/ros2_ws/build/mylaunch
+running install_data

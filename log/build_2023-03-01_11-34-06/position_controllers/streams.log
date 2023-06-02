@@ -1,0 +1,109 @@
+[0.015s] Invoking command in '/home/ros_user/ros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/position_controllers -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/position_controllers
+[0.057s] -- The C compiler identification is GNU 9.4.0
+[0.084s] -- The CXX compiler identification is GNU 9.4.0
+[0.088s] -- Check for working C compiler: /usr/bin/cc
+[0.131s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.132s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.239s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.320s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.320s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.448s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Found forward_command_controller: 0.0.0 (/home/ros_user/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.586s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.082s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.084s] -- Looking for pthread.h
+[1.164s] -- Looking for pthread.h - found
+[1.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.212s] -- Looking for pthread_create in pthreads
+[1.255s] -- Looking for pthread_create in pthreads - not found
+[1.256s] -- Looking for pthread_create in pthread
+[1.298s] -- Looking for pthread_create in pthread - found
+[1.300s] -- Found Threads: TRUE  
+[1.552s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.651s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.653s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.653s] -- Found controller_manager: 0.0.0 (/home/ros_user/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[1.679s] -- Found test_robot_hardware: 0.0.0 (/home/ros_user/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake)
+[1.767s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.770s] -- Check if compiler accepts -pthread
+[1.816s] -- Check if compiler accepts -pthread - yes
+[1.875s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.876s] -- Configured cppcheck include dirs: /home/ros_user/ros2_ws/src/ros2_controllers/position_controllers/include
+[1.876s] -- Configured cppcheck exclude dirs and/or files: 
+[1.877s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.877s] -- Configured cpplint exclude dirs and/or files: 
+[1.878s] -- Added test 'lint_cmake' to check CMake code style
+[1.878s] -- Added test 'uncrustify' to check C / C++ code style
+[1.878s] -- Configured uncrustify additional arguments: 
+[1.879s] -- Added test 'xmllint' to check XML markup files
+[1.883s] -- Configuring done
+[1.923s] -- Generating done
+[1.925s] -- Build files have been written to: /home/ros_user/ros2_ws/build/position_controllers
+[1.935s] Invoked command in '/home/ros_user/ros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros_user/ros2_ws/src/ros2_controllers/position_controllers -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/position_controllers
+[1.935s] Invoking command in '/home/ros_user/ros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/position_controllers -- -j4 -l4
+[1.963s] [35m[1mScanning dependencies of target gtest[0m
+[1.975s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.234s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.267s] [ 20%] Built target gtest
+[4.272s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.281s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.789s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.808s] [ 40%] Built target gtest_main
+[4.814s] [35m[1mScanning dependencies of target position_controllers[0m
+[4.842s] [ 50%] [32mBuilding CXX object CMakeFiles/position_controllers.dir/src/joint_group_position_controller.cpp.o[0m
+[6.233s] [ 60%] [32m[1mLinking CXX shared library libposition_controllers.so[0m
+[6.335s] [ 60%] Built target position_controllers
+[6.342s] [35m[1mScanning dependencies of target test_load_joint_group_position_controller[0m
+[6.377s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_position_controller.dir/test/test_load_joint_group_position_controller.cpp.o[0m
+[8.769s] [ 80%] [32m[1mLinking CXX executable test_load_joint_group_position_controller[0m
+[9.013s] [ 80%] Built target test_load_joint_group_position_controller
+[9.020s] [35m[1mScanning dependencies of target test_joint_group_position_controller[0m
+[9.055s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_group_position_controller.dir/test/test_joint_group_position_controller.cpp.o[0m
+[11.105s] [100%] [32m[1mLinking CXX executable test_joint_group_position_controller[0m
+[11.298s] [100%] Built target test_joint_group_position_controller
+[11.305s] Invoked command in '/home/ros_user/ros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_user/ros2_ws/build/position_controllers -- -j4 -l4
+[11.326s] Invoking command in '/home/ros_user/ros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/position_controllers
+[11.333s] -- Install configuration: ""
+[11.333s] -- Execute custom install script
+[11.334s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers//position_controllers_plugins.xml
+[11.339s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/include/position_controllers/joint_group_position_controller.hpp
+[11.345s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/include/position_controllers/visibility_control.h
+[11.350s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/lib/libposition_controllers.so
+[11.356s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/library_path.sh
+[11.362s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/library_path.dsv
+[11.367s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/ament_index/resource_index/package_run_dependencies/position_controllers
+[11.373s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/ament_index/resource_index/parent_prefix_path/position_controllers
+[11.378s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.sh
+[11.383s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.dsv
+[11.389s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/path.sh
+[11.394s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/environment/path.dsv
+[11.399s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/local_setup.bash
+[11.404s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/local_setup.sh
+[11.409s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/local_setup.zsh
+[11.415s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/local_setup.dsv
+[11.420s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/package.dsv
+[11.426s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/ament_index/resource_index/packages/position_controllers
+[11.432s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/position_controllers
+[11.437s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.443s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.448s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[11.453s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig.cmake
+[11.458s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig-version.cmake
+[11.463s] -- Symlinking: /home/ros_user/ros2_ws/install/position_controllers/share/position_controllers/package.xml
+[11.475s] Invoked command in '/home/ros_user/ros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/forward_command_controller:/home/ros_user/ros2_ws/install/controller_manager:/home/ros_user/ros2_ws/install/test_robot_hardware:/home/ros_user/ros2_ws/install/controller_interface:/home/ros_user/ros2_ws/install/hardware_interface:/home/ros_user/ros2_ws/install/controller_manager_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_user/ros2_ws/install/forward_command_controller/lib:/home/ros_user/ros2_ws/install/controller_manager/lib:/home/ros_user/ros2_ws/install/test_robot_hardware/lib:/home/ros_user/ros2_ws/install/controller_interface/lib:/home/ros_user/ros2_ws/install/hardware_interface/lib:/home/ros_user/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_user/ros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_user/ros2_ws/build/position_controllers

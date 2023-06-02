@@ -1,0 +1,34 @@
+[0.405s] Invoking command in '/home/ros_user/ros2_ws/build/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build
+[0.495s] running develop
+[0.544s] Removing /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2-course.egg-link (link to .)
+[0.552s] Invoked command in '/home/ros_user/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build
+[0.553s] Invoking command in '/home/ros_user/ros2_ws/src/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/ros_user/ros2_ws/build/ros2_course/build install --record /home/ros_user/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
+[0.636s] running egg_info
+[0.636s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[0.637s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[0.637s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[0.637s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[0.637s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[0.651s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] creating /home/ros_user/ros2_ws/build/ros2_course/build
+[0.652s] creating /home/ros_user/ros2_ws/build/ros2_course/build/lib
+[0.652s] creating /home/ros_user/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.652s] copying ros2_course/__init__.py -> /home/ros_user/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.652s] copying ros2_course/hello.py -> /home/ros_user/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.652s] running install
+[0.652s] running install_lib
+[0.653s] creating /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course
+[0.653s] copying /home/ros_user/ros2_ws/build/ros2_course/build/lib/ros2_course/__init__.py -> /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course
+[0.653s] copying /home/ros_user/ros2_ws/build/ros2_course/build/lib/ros2_course/hello.py -> /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course
+[0.653s] byte-compiling /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course/__init__.py to __init__.cpython-38.pyc
+[0.653s] byte-compiling /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course/hello.py to hello.cpython-38.pyc
+[0.653s] running install_data
+[0.654s] running install_egg_info
+[0.654s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages/ros2_course-0.0.0-py3.8.egg-info
+[0.655s] running install_scripts
+[0.662s] Installing hello script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[0.662s] writing list of installed files to '/home/ros_user/ros2_ws/build/ros2_course/install.log'
+[0.671s] Invoked command in '/home/ros_user/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/ros_user/ros2_ws/build/ros2_course/build install --record /home/ros_user/ros2_ws/build/ros2_course/install.log --single-version-externally-managed

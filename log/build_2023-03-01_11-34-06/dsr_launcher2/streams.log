@@ -1,0 +1,51 @@
+[0.035s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_launcher2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/dsr_launcher2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/dsr_launcher2
+[0.117s] -- The C compiler identification is GNU 9.4.0
+[0.222s] -- The CXX compiler identification is GNU 9.4.0
+[0.225s] -- Check for working C compiler: /usr/bin/cc
+[0.442s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.443s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.514s] -- Detecting C compile features
+[0.515s] -- Detecting C compile features - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.736s] -- Detecting CXX compiler ABI info
+[0.955s] -- Detecting CXX compiler ABI info - done
+[0.962s] -- Detecting CXX compile features
+[0.962s] -- Detecting CXX compile features - done
+[0.964s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.999s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.999s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.379s] -- Configuring done
+[1.380s] -- Generating done
+[1.381s] -- Build files have been written to: /home/ros_user/ros2_ws/build/dsr_launcher2
+[1.386s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_launcher2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake /home/ros_user/ros2_ws/src/doosan-robot2/dsr_launcher2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros_user/ros2_ws/install/dsr_launcher2
+[1.386s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_launcher2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/dsr_launcher2 -- -j4 -l4
+[1.476s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_launcher2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --build /home/ros_user/ros2_ws/build/dsr_launcher2 -- -j4 -l4
+[1.639s] Invoking command in '/home/ros_user/ros2_ws/build/dsr_launcher2': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/dsr_launcher2
+[1.648s] -- Install configuration: ""
+[1.649s] -- Execute custom install script
+[1.649s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/package_run_dependencies/dsr_launcher2
+[1.655s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/parent_prefix_path/dsr_launcher2
+[1.660s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/ament_prefix_path.sh
+[1.665s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/ament_prefix_path.dsv
+[1.670s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/path.sh
+[1.688s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/environment/path.dsv
+[1.708s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.bash
+[1.736s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.sh
+[1.755s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.zsh
+[1.777s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/local_setup.dsv
+[1.805s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/package.dsv
+[1.829s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/ament_index/resource_index/packages/dsr_launcher2
+[1.850s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/cmake/dsr_launcher2Config.cmake
+[1.859s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/cmake/dsr_launcher2Config-version.cmake
+[1.868s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/package.xml
+[1.878s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/dsr_joint_state_pub.launch.py
+[1.889s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_gazebo.launch.py
+[1.899s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_rviz.launch.py
+[1.908s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/launch/single_robot_rviz_gazebo.launch.py
+[1.918s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/rviz/default.rviz
+[1.929s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/worlds/car.world
+[1.937s] -- Symlinking: /home/ros_user/ros2_ws/install/dsr_launcher2/share/dsr_launcher2/worlds/empty.world
+[1.953s] Invoked command in '/home/ros_user/ros2_ws/build/dsr_launcher2' returned '0': CMAKE_PREFIX_PATH=/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/foxy /usr/bin/cmake --install /home/ros_user/ros2_ws/build/dsr_launcher2

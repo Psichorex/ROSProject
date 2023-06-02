@@ -1,0 +1,25 @@
+[0.833s] Invoking command in '/home/ros_user/ros2_ws/build/mylaunch': PYTHONPATH=/home/ros_user/ros2_ws/build/mylaunch/prefix_override:/home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/mylaunch/build --no-deps install_data
+[1.024s] running develop
+[1.194s] running egg_info
+[1.194s] creating mylaunch.egg-info
+[1.194s] writing mylaunch.egg-info/PKG-INFO
+[1.194s] writing dependency_links to mylaunch.egg-info/dependency_links.txt
+[1.194s] writing entry points to mylaunch.egg-info/entry_points.txt
+[1.194s] writing requirements to mylaunch.egg-info/requires.txt
+[1.194s] writing top-level names to mylaunch.egg-info/top_level.txt
+[1.195s] writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+[1.210s] reading manifest file 'mylaunch.egg-info/SOURCES.txt'
+[1.210s] writing manifest file 'mylaunch.egg-info/SOURCES.txt'
+[1.225s] running build_ext
+[1.225s] Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/site.py
+[1.227s] Creating /home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages/mylaunch.egg-link (link to .)
+[1.227s] 
+[1.227s] Installed /home/ros_user/ros2_ws/build/mylaunch
+[1.227s] running install_data
+[1.227s] creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index
+[1.227s] creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index
+[1.228s] creating /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index/packages
+[1.228s] copying resource/mylaunch -> /home/ros_user/ros2_ws/install/mylaunch/share/ament_index/resource_index/packages
+[1.228s] copying package.xml -> /home/ros_user/ros2_ws/install/mylaunch/share/mylaunch
+[1.228s] copying launch/mylaunch.py -> /home/ros_user/ros2_ws/install/mylaunch/share/mylaunch
+[1.239s] Invoked command in '/home/ros_user/ros2_ws/build/mylaunch' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/mylaunch/prefix_override:/home/ros_user/ros2_ws/install/mylaunch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/mylaunch/build --no-deps install_data
