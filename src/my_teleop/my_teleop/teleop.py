@@ -15,7 +15,7 @@ class TeleopPublisher(Node):
         self.linear_speed = 0.0
         self.angular_speed = 0.0
 
-        # sebesség
+        # sebesség inkrementáció
         self.linear_increment = 0.01
         self.angular_increment = 0.2
 
