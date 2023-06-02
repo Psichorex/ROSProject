@@ -12,7 +12,7 @@ class SensorDataReader(Node):
             10)
         self.subscription
 
-    def lidar_callback(self, msg):
+    def messenger_callback(self, msg):
         range_ahead = msg.ranges[len(msg.ranges)//2]
         range_min = min(msg.ranges)
         range_max = max(msg.ranges)
